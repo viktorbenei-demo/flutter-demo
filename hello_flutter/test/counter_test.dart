@@ -12,7 +12,7 @@ void main() {
 
       counter.increment();
 
-      expect(counter.value, 1);
+      expect(counter.value, 2);
     });
 
     test('value should be decremented', () {
